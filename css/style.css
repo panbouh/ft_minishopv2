@@ -1,0 +1,99 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user_card
+{
+    background-color: rgb(255, 118, 118);
+    margin: 10px;
+}
+
+.user_card > p{
+    margin: 5px;
+}
+
+.bigdiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bigdiv .categories {
+    flex-grow: 1;
+}
+
+.bigdiv .all_products {
+    flex-grow: 10;
+}
+
+ul
+{
+    list-style-type: none; 
+}
+
+li:hover
+{
+    background-color: cyan; 
+}
+
+
+.logintitle 
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.all_products
+{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.product
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;;
+    text-align: center;
+}
+
+.basket:hover
+{
+    background-color: cyan;
+}
+
+.selectedleft
+{
+    background-color: cyan;
+}
+
+.logo
+{
+    background-color:cyan;
+}
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+
+.total-order
+{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: pink;
+    text-align: center;
+}
+
+.center
+{
+    text-align: center; 
+}
+
